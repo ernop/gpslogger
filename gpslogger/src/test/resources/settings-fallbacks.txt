@@ -1,0 +1,137 @@
+# key	fallbacks in the code	settings screen default
+DROPBOX_ACCESS_KEY	String null	-
+DROPBOX_REFRESH_TOKEN	String null	-
+absolute_timeout	String 120	120
+accuracy_before_logging	String 40	40
+altitude_subtractgeoidheight	Boolean false	false
+altitude_subtractoffset	String 0	0
+annotations_buttons	String 	-
+app_theme_setting	String system	system
+autocustomurl_enabled	Boolean false	-
+autoemail_enabled	Boolean false	-
+autoemail_preset	-	0
+autoemail_target	String 	-
+autoftp_directory	String GPSLogger	GPSLogger
+autoftp_enabled	Boolean false	-
+autoftp_implicit	Boolean false	false
+autoftp_password	String 	-
+autoftp_port	String 21	21
+autoftp_server	String 	-
+autoftp_ssltls	String 	
+autoftp_useftps	Boolean false	false
+autoftp_username	String 	-
+autohttpfileupload_enabled	Boolean false	-
+autoopengts_enabled	Boolean false	-
+autoopengts_server_path	String 	-
+autosend_enabled	Boolean false	-
+autosend_frequency_minutes	String 60	60
+autosend_frequency_whenstoppressed	Boolean true	true
+autosend_sendzip	Boolean true	true
+autosend_wifionly	Boolean false	false
+current_profile_name	String @string/profile_default	-
+custom_url_batch_size	String 0	-
+custom_url_sleep_ms	Long 0	-
+dawarich_activity	String 	-
+dawarich_apikey	String 	-
+dawarich_bulk_max	String 10	-
+dawarich_bulk_min	String 3	-
+dawarich_device_id	String 	-
+dawarich_discard_offline_logs	Boolean false	-
+dawarich_enable_logging	Boolean false	-
+dawarich_enabled	Boolean false	-
+dawarich_motion	String 	-
+dawarich_persistence_file_path	String 	-
+dawarich_server	String 	-
+debugtofile	Boolean false	false
+distance_before_logging	String 0	0
+dropbox_enabled	Boolean false	-
+enableDisableGps	-	false
+file_logging_write_time_with_offset	Boolean false	false
+fused_quality	String QUALITY_BALANCED_POWER_ACCURACY	QUALITY_BALANCED_POWER_ACCURACY
+google_drive_auth_state	String null	-
+google_drive_enabled	Boolean false	-
+google_drive_folder_path	String GPSLogger for Android	GPSLogger for Android
+gpslogger_folder	String /<app external files folder>	-
+hide_notification_buttons	Boolean false	-
+hide_notification_from_lock_screen	Boolean true	true
+hide_notification_from_status_bar	Boolean false	false
+httpfileupload_basicauth_password	String 	-
+httpfileupload_basicauth_username	String 	-
+httpfileupload_body_type	String form-data	form-data
+httpfileupload_headers	String 	-
+httpfileupload_method	String POST	POST
+httpfileupload_url	String 	-
+keep_fix	Boolean false	-
+last_version_seen	String 1	-
+latlong_display_format	String DEGREES_MINUTES_SECONDS	-
+log_customurl_basicauth_hide_password	Boolean false	-
+log_customurl_basicauth_password	String 	-
+log_customurl_basicauth_username	String 	-
+log_customurl_body	String 	
+log_customurl_discard_offline_locations_enabled	Boolean false	-
+log_customurl_enabled	Boolean false	-
+log_customurl_headers	String 	
+log_customurl_method	String GET	GET
+log_customurl_url	String http://localhost/log?lat=%LAT&longitude=%LON&time=%TIME&s=%SPD	-
+log_fused_locations	Boolean false	false
+log_geojson	Boolean false	-
+log_gpx	Boolean true	true
+log_gpx_11	Boolean false	false
+log_kml	Boolean false	-
+log_network_locations	Boolean true	true
+log_nmea	Boolean false	-
+log_opengts	Boolean false	-
+log_passive_locations	Boolean false	-
+log_plain_text	Boolean false	-
+log_plain_text_csv_advanced	-	,
+log_plain_text_csv_decimal_comma	Boolean false	-
+log_plain_text_csv_delimiter	String ,	-
+log_satellite_locations	Boolean true	true
+new_file_creation	String onceaday	onceaday
+new_file_custom_each_time	Boolean true	true
+new_file_custom_keep_changing	Boolean true	true
+new_file_custom_name	String gpslogger	gpslogger
+new_file_prefix_serial	Boolean false	false
+only_log_if_significant_motion	Boolean false	false
+opengts_accountname	String 	-
+opengts_device_id	String 	-
+opengts_server	String 	-
+opengts_server_communication_method	String HTTPS	HTTPS
+opengts_server_port	String 443	443
+osm_description	String 	-
+osm_enabled	Boolean false	-
+osm_oauthstate	String 	-
+osm_promptfordetails_when_logging_starts	Boolean false	true
+osm_tags	String 	-
+osm_visibility	String trackable	trackable
+owncloud_directory	String /gpslogger	gpslogger
+owncloud_enabled	Boolean false	-
+owncloud_password	String 	-
+owncloud_server	String 	http://127.0.0.1
+owncloud_username	String 	-
+passive_filter_interval	String 1	1
+retry_get_best_possible_accuracy	Boolean false	false
+retry_time	String 60	60
+selected_navitem	String 0	-
+sftp_enabled	Boolean false	-
+sftp_host	String 127.0.0.1	127.0.0.1
+sftp_known_host_key	String 	-
+sftp_password	String 	
+sftp_port	String 22	22
+sftp_private_key_passphrase	String 	
+sftp_private_key_path	String 	-
+sftp_remote_server_path	String /tmp	/tmp
+sftp_user	String 	
+significant_motion_bypass_interval	String 0	0
+smtp_from	String 	
+smtp_password	String 	-
+smtp_port	String 25	25
+smtp_server	String 	-
+smtp_ssl	Boolean true	-
+smtp_username	String 	-
+startonapplaunch	Boolean false	-
+startonbootup	Boolean false	-
+stoponapplaunch	Boolean false	-
+time_before_logging	String 60	60
+useImperial	Boolean false	-
+user_specified_locale	String 	-
