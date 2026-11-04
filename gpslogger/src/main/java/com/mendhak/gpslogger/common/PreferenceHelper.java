@@ -845,7 +845,7 @@ public class PreferenceHelper {
 
     @ProfilePreference(name=PreferenceNames.LOG_FUSED_LOCATIONS)
     public boolean shouldLogFusedLocations(){
-        return prefs.getBoolean(PreferenceNames.LOG_FUSED_LOCATIONS, true);
+        return prefs.getBoolean(PreferenceNames.LOG_FUSED_LOCATIONS, false);
     }
 
     public void setShouldLogFusedLocations(boolean value){
